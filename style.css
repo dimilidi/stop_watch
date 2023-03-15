@@ -1,0 +1,64 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    height: 100vh;
+    background: url('images/photo-1558617320-e695f0d420de.jpeg') no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .container {
+    width: 60%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 0 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    /* margin: 0 auto; */
+    padding: 20px;
+ }
+
+ .buttons {
+    text-align: center;
+    padding: 20px;
+  
+ }
+
+ button {
+    margin: 0 10px;
+    border: none;
+ }
+ 
+ button i {
+     font-size: 2rem;
+     padding: 10px;
+     color: #fff;
+     width: 50px;
+ }
+
+ #play {
+    background-color: green;
+ }
+
+ #pause {
+    background-color: orange;
+ }
+
+ #reset {
+    background-color: red;
+ }
+
